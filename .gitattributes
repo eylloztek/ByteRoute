@@ -1,0 +1,24 @@
+* text=auto
+
+# Source files
+*.c text eol=lf
+*.h text eol=lf
+
+# Build and configuration
+CMakeLists.txt text eol=lf
+*.cmake text eol=lf
+*.sh text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Scripts
+*.py text eol=lf
+
+# Binary artifacts
+*.pcap binary
+*.pcapng binary
+*.png binary
+*.jpg binary
+*.jpeg binary

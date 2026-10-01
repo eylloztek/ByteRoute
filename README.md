@@ -1,0 +1,37 @@
+# Development Roadmap
+
+- ~~Initialize repository metadata and development configuration.~~
+- Set up the CMake build system and initial source tree.
+- Implement byte-order and binary encoding utilities.
+- Implement the Internet checksum algorithm and unit tests.
+- Create and configure a Linux TAP network interface.
+- Implement the packet buffer abstraction.
+- Implement Ethernet II frame parsing and serialization.
+- Add EtherType-based protocol dispatching.
+- Implement ARP packet parsing and validation.
+- Implement ARP request generation and reply handling.
+- Add an IPv4-to-MAC ARP cache.
+- Add ARP cache expiration and maintenance.
+- Implement IPv4 header parsing and validation.
+- Implement IPv4 packet construction and header checksums.
+- Add IPv4 protocol dispatching.
+- Implement ICMP Echo Request and Echo Reply handling.
+- Validate ICMP communication using the system ping utility.
+- Implement UDP header parsing and checksum handling.
+- Add UDP endpoint and port-binding management.
+- Implement UDP receive-side demultiplexing.
+- Implement UDP packet transmission.
+- Build a UDP echo application using the stack.
+- Implement basic IPv4 routing and next-hop selection.
+- Integrate ARP resolution with IPv4 transmission.
+- Implement TCP header parsing, serialization, and checksums.
+- Build the TCP connection state machine.
+- Implement passive TCP connection establishment.
+- Implement active TCP connection establishment.
+- Implement TCP sequence tracking and data transmission.
+- Implement ordered TCP data reception and acknowledgements.
+- Add TCP retransmission timers and retry handling.
+- Implement graceful TCP connection shutdown.
+- Harden packet parsers against malformed and truncated packets.
+- Add end-to-end protocol integration tests.
+- Finalize architecture documentation, packet captures, and the first release.
