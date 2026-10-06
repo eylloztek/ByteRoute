@@ -1,7 +1,7 @@
 # Development Roadmap
 
 - ~~Initialize repository metadata and development configuration.~~
-- Set up the CMake build system and initial source tree.
+- ~~Set up the CMake build system and initial source tree.~~
 - Implement byte-order and binary encoding utilities.
 - Implement the Internet checksum algorithm and unit tests.
 - Create and configure a Linux TAP network interface.
