@@ -23,6 +23,7 @@ add_library(
     byteroute_core
     STATIC
     src/byteroute.c
+    src/util/byteorder.c
 )
 
 add_library(ByteRoute::Core ALIAS byteroute_core)
