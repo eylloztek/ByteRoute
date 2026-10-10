@@ -24,6 +24,7 @@ add_library(
     STATIC
     src/byteroute.c
     src/util/byteorder.c
+    src/util/checksum.c
 )
 
 add_library(ByteRoute::Core ALIAS byteroute_core)
