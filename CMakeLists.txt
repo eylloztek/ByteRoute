@@ -23,6 +23,7 @@ add_library(
     byteroute_core
     STATIC
     src/byteroute.c
+    src/platform/tap.c
     src/util/byteorder.c
     src/util/checksum.c
 )
@@ -55,3 +56,5 @@ include(CTest)
 if(BUILD_TESTING)
     add_subdirectory(tests)
 endif()
+
+add_subdirectory(tools)
