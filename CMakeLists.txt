@@ -23,6 +23,7 @@ add_library(
     byteroute_core
     STATIC
     src/byteroute.c
+    src/core/packet.c
     src/platform/tap.c
     src/util/byteorder.c
     src/util/checksum.c

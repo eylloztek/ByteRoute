@@ -38,3 +38,21 @@ add_test(
     NAME byteroute.checksum
     COMMAND byteroute_test_checksum
 )
+
+add_executable(
+    byteroute_test_packet
+    test_packet.c
+)
+
+target_link_libraries(
+    byteroute_test_packet
+    PRIVATE
+        ByteRoute::Core
+)
+
+byteroute_set_project_warnings(byteroute_test_packet)
+
+add_test(
+    NAME byteroute.packet
+    COMMAND byteroute_test_packet
+)

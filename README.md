@@ -5,7 +5,7 @@
 - ~~Implement byte-order and binary encoding utilities.~~
 - ~~Implement the Internet checksum algorithm and unit tests.~~
 - ~~Create and configure a Linux TAP network interface.~~
-- Implement the packet buffer abstraction.
+- ~~Implement the packet buffer abstraction.~~
 - Implement Ethernet II frame parsing and serialization.
 - Add EtherType-based protocol dispatching.
 - Implement ARP packet parsing and validation.
